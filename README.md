@@ -8,14 +8,14 @@
 </p>
 
 <p align="center">
-  <b>Gesture-controlled DJ mixing system using real-time hand tracking</b>
+  <b>Gesture controlled DJ mixing system using real-time hand tracking</b>
 </p>
 
 ## 1. Project Overview
 
-GestureDJ is a contactless, gesture‑controlled audio mixing application developed in Python. It leverages computer vision techniques to track hand movements in real time and maps spatial coordinates and hand configurations to DJ‑style mixing controls.
+GestureDJ is a contactless, gesture‑controlled audio mixing application developed in Python. It leverages computer vision techniques to track hand movements in real time and maps spatial coordinates and hand configurations to DJ style mixing controls.
 
-Using a standard webcam, the system detects hand landmarks, computes geometric relationships between key points, and converts these measurements into continuous audio control signals. This enables hands‑free control of volume, crossfading, and digital signal processing (DSP) effects without the need for physical DJ hardware or keyboard interaction.
+Using a standard webcam, the system detects hand landmarks, computes geometric relationships between key points, and converts these measurements into continuous audio control signals. This enables hands free control of volume, crossfading, and digital signal processing (DSP) effects without the need for physical DJ hardware or keyboard interaction.
 
 ---
 
@@ -27,7 +27,7 @@ Using a standard webcam, the system detects hand landmarks, computes geometric r
   A horizontal animated slider rendered on the webcam feed that visually represents the real‑time mix ratio between Track A and Track B.
 
 * **Dynamic Volume Meter**
-  A vertical volume bar that smoothly responds to pinch‑gesture input, providing immediate visual feedback of master volume levels.
+  A vertical volume bar that smoothly responds to pinch gesture input, providing immediate visual feedback of master volume levels.
 
 * **Effect Status Indicators**
   On‑screen labels and highlights indicate when effects such as *Scratch*, *Echo*, or *Filter* are active.
@@ -85,7 +85,7 @@ Using a standard webcam, the system detects hand landmarks, computes geometric r
 
 ## 4. System Architecture
 
-GestureDJ follows a real‑time processing pipeline composed of three primary layers:
+GestureDJ follows a real time processing pipeline composed of three primary layers:
 
 ### Input & Perception Layer
 

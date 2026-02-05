@@ -1,5 +1,29 @@
 # GestureDJ
 
+<!-- Badges / Buttons -->
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-green?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/pygame-Audio%20Engine-purple?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <b>Gesture‑controlled DJ mixing using computer vision and real‑time audio processing</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-success?style=for-the-badge&logo=opencv&logoColor=white" />
+  <img src="https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Pygame-Audio%20Engine-purple?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <b>Gesture-controlled DJ mixing system using real-time hand tracking</b>
+</p>
+
 ## 1. Project Overview
 
 GestureDJ is a contactless, gesture‑controlled audio mixing application developed in Python. It leverages computer vision techniques to track hand movements in real time and maps spatial coordinates and hand configurations to DJ‑style mixing controls.
@@ -9,6 +33,34 @@ Using a standard webcam, the system detects hand landmarks, computes geometric r
 ---
 
 ## 2. Key Features
+
+### UI & Interaction Components
+
+* **DJ‑Style Crossfader Bar**
+  A horizontal animated slider rendered on the webcam feed that visually represents the real‑time mix ratio between Track A and Track B.
+
+* **Dynamic Volume Meter**
+  A vertical volume bar that smoothly responds to pinch‑gesture input, providing immediate visual feedback of master volume levels.
+
+* **Effect Status Indicators**
+  On‑screen labels and highlights indicate when effects such as *Scratch*, *Echo*, or *Filter* are active.
+
+* **Hand Skeleton Overlay**
+  MediaPipe landmark connections are drawn in real time, allowing users to visually understand gesture recognition accuracy.
+
+* **Minimal, High‑Contrast UI Design**
+  The interface is intentionally clean and readable, ensuring visibility under different lighting conditions without distracting from gesture control.
+
+---
+
+## 2. Key Features
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Real--Time-Processing-black?style=flat-square" />
+  <img src="https://img.shields.io/badge/Hands--Free-Control-black?style=flat-square" />
+  <img src="https://img.shields.io/badge/Computer--Vision-black?style=flat-square" />
+  <img src="https://img.shields.io/badge/Digital--Audio-black?style=flat-square" />
+</p>
 
 * **Real‑time Hand Tracking**
   Uses MediaPipe Hands to detect and track up to two hands simultaneously with low latency.
@@ -156,6 +208,24 @@ To exit the application, press **Q** while the window is in focus.
 ---
 
 ## 8. Controls & Gesture Details
+
+### Visual UI Components (On‑Screen)
+
+* **Animated Crossfader Slider** – Moves fluidly based on right‑hand X‑axis position
+* **Live Volume Bar** – Scales smoothly with pinch distance
+* **Effect Toggles** – Text and color cues for Scratch, Echo, and Filter states
+* **Hand Landmark Visualization** – Real‑time skeletal tracking for transparency and debugging
+
+---
+
+### Crossfader (Right Hand – X Axis)
+
+<p align="center">
+  <img src="https://img.shields.io/badge/UI-Animated%20Crossfader-blueviolet?style=flat-square" />
+  <img src="https://img.shields.io/badge/UI-Volume%20Meter-blueviolet?style=flat-square" />
+  <img src="https://img.shields.io/badge/UI-Effect%20Indicators-blueviolet?style=flat-square" />
+  <img src="https://img.shields.io/badge/UI-Hand%20Skeleton%20Overlay-blueviolet?style=flat-square" />
+</p>
 
 ### Crossfader (Right Hand – X Axis)
 

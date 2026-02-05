@@ -1,15 +1,4 @@
 # GestureDJ
-
-<!-- Badges / Buttons -->
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-green?style=for-the-badge&logo=opencv&logoColor=white" />
-  <img src="https://img.shields.io/badge/MediaPipe-Hand%20Tracking-orange?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/pygame-Audio%20Engine-purple?style=for-the-badge" />
-</p>
-
-<p align="center">
   <b>Gesture‑controlled DJ mixing using computer vision and real‑time audio processing</b>
 </p>
 

@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Author-Sarthak%20Bhopale-black?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Author-Sarthak%20Bhopale-gray?style=for-the-badge&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/Role-Aspiring%20AI%20%26%20Computer%20Vision%20Developer-darkblue?style=for-the-badge" />
 </p>
 
@@ -17,7 +17,7 @@
 
 > **Author:** Sarthak Bhopale  
 > **Domain:** Computer Vision · Human–Computer Interaction · Audio Processing  
-> **Project Type:** Academic / Portfolio Project
+> **Project Type:** Portfolio Project
 
 
 ## 1. Project Overview
